@@ -186,24 +186,21 @@
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
-                <form id="submit-form" class="contactform" method="post" action="http://slimhamdi.net/tunis/light/php/process-form.php">
+                <form id="submit-form" class="contactform" method="post" action="">
                     <div class="contactform">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <input type="text" name="name" placeholder="YOUR NAME" required>
+                                <input type="text" name="name" placeholder="YOUR NAME">
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="email" name="email" placeholder="YOUR EMAIL" required>
+                                <input type="email" name="email" placeholder="YOUR EMAIL">
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="text" name="subject" placeholder="YOUR SUBJECT" required>
+                                <input type="text" name="subject" placeholder="YOUR SUBJECT">
                             </div>
                             <div class="col-12">
-                                <textarea name="message" placeholder="YOUR MESSAGE" required></textarea>
+                                <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
                                 <button type="submit" class="btn btn-contact">Send Message</button>
-                            </div>
-                            <div class="col-12 form-message">
-                                <span class="output_message text-center font-weight-600 text-uppercase"></span>
                             </div>
                         </div>
                     </div>
@@ -226,7 +223,13 @@
 <script src="js/jquery.hoverdir.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script src="js/validation.js"></script>
 <script src="js/custom.js"></script>
+
+    
+    
+
 
 </body>
 
